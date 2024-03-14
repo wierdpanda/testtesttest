@@ -8,7 +8,12 @@ export default {
 
   ],
   theme: {
-    extend: {},
+    
+    extend: {
+      colors:{
+        orange: 'rgb(245 0 32)',
+      }
+    },
   },
   plugins: [],
 }

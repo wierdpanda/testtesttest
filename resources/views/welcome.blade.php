@@ -7,8 +7,8 @@
     <title>Document</title>
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 </head>
-<body class="bg-amber-600">
-    TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST
+<body >
+    
 
 </body>
 </html>
