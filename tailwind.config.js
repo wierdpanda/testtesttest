@@ -12,6 +12,7 @@ export default {
     extend: {
       colors:{
         orange: 'rgb(245 0 32)',
+        eyegold: 'rgb(245 234 125)',
       }
     },
   },

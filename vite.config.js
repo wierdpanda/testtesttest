@@ -8,4 +8,5 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    server: { https: false, host: 'testtesttest.test', },  
 });

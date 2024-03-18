@@ -28,15 +28,10 @@
 
 
     </div>
-    <div id="scroll-container">
-        <div id="scroll-text">
-        <p>WE DO NOT FLY BY NIGHT</p>
-        <p>Excellence is our promise. Service is our mission. Quality is our guarantee</p>
-        
-    </div>
+    
 
 
-    </div>
+    
 
 
 

@@ -9,17 +9,23 @@
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 </head>
 
-<body class="bg-orange ">
+<body class="bg-eyegold">
     {{-- <img src="{{asset('img/EOlogo.png')}}" > --}}
     {{-- class=" min-h-[100px] max-w-[500px] --}}
 
 
     {{-- yellow banner div top + logo --}}
-    <div class="w-full bg-yellow-200 min-h-[150px]  ">
+    <div class="w-full bg-eyegold min-h-[150px]  ">
         <img
              src="{{ asset('img/EOlogo.png') }} "
              class=" mx-auto my-12 max-w-96"
              alt="No image found">
+             <div id="scroll-container">
+                <div id="scroll-text">
+                <p>WE DO NOT FLY BY NIGHT</p>
+                <p>Excellence is our promise. Service is our mission. Quality is our guarantee</p>
+                
+            </div>
     </div>
     {{-- navbar --}}
     
@@ -28,6 +34,7 @@
     <div class="flex bg-blue-700 border border-yellow-200 justify-evenly ">
         {{-- images left  +hides smaller screens--}}
         <div class="w-full hidden sm:block">
+            
             {{-- image left top --}}
             <img class="w-full"
                  src="{{ asset('img/roboOwlThin.jpg') }} "
